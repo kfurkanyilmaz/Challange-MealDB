@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6461C4712624F47C0027B18C /* ProductListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461C4702624F47C0027B18C /* ProductListVC.swift */; };
+		6461C4772624F7900027B18C /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461C4752624F7900027B18C /* ProductCollectionViewCell.swift */; };
+		6461C4782624F7900027B18C /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6461C4762624F7900027B18C /* ProductCollectionViewCell.xib */; };
+		6461C47E262502C30027B18C /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461C47D262502C30027B18C /* ProductModel.swift */; };
+		6461C48426253F6B0027B18C /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461C48326253F6B0027B18C /* ProductDetailVC.swift */; };
+		6461C4A12625CEC90027B18C /* FavoriteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461C4A02625CEC90027B18C /* FavoriteManager.swift */; };
 		64C4C15026210754009F0BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C14F26210754009F0BE6 /* AppDelegate.swift */; };
 		64C4C15226210754009F0BE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C15126210754009F0BE6 /* SceneDelegate.swift */; };
-		64C4C15426210754009F0BE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C15326210754009F0BE6 /* ViewController.swift */; };
+		64C4C15426210754009F0BE6 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C15326210754009F0BE6 /* HomePageVC.swift */; };
 		64C4C15726210754009F0BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C4C15526210754009F0BE6 /* Main.storyboard */; };
 		64C4C15926210755009F0BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C4C15826210755009F0BE6 /* Assets.xcassets */; };
 		64C4C15C26210755009F0BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C4C15A26210755009F0BE6 /* LaunchScreen.storyboard */; };
+		64C4C16D26210963009F0BE6 /* AreaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C16B26210963009F0BE6 /* AreaCollectionViewCell.swift */; };
+		64C4C16E26210963009F0BE6 /* AreaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C4C16C26210963009F0BE6 /* AreaCollectionViewCell.xib */; };
+		64C4C17226210EF6009F0BE6 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C17026210EF6009F0BE6 /* CategoryCollectionViewCell.swift */; };
+		64C4C17326210EF6009F0BE6 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C4C17126210EF6009F0BE6 /* CategoryCollectionViewCell.xib */; };
+		64C4C17726211378009F0BE6 /* AreaItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C17526211378009F0BE6 /* AreaItemCollectionViewCell.swift */; };
+		64C4C17826211378009F0BE6 /* AreaItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64C4C17626211378009F0BE6 /* AreaItemCollectionViewCell.xib */; };
+		64C4C17F26229D72009F0BE6 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C17E26229D72009F0BE6 /* CategoriesModel.swift */; };
+		64C4C18826232EB7009F0BE6 /* ProductDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C18726232EB7009F0BE6 /* ProductDetailModel.swift */; };
+		64C4C18E26233147009F0BE6 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C18D26233147009F0BE6 /* RegionModel.swift */; };
+		668495BDB85A9B94FB04C5B0 /* Pods_The_Meal_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE25ED263041E0D5BA45618 /* Pods_The_Meal_Challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BE25ED263041E0D5BA45618 /* Pods_The_Meal_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Meal_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4186BF0AA80FA5444B8D8823 /* Pods-The Meal Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Meal Challenge.release.xcconfig"; path = "Target Support Files/Pods-The Meal Challenge/Pods-The Meal Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		6461C4702624F47C0027B18C /* ProductListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVC.swift; sourceTree = "<group>"; };
+		6461C4752624F7900027B18C /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		6461C4762624F7900027B18C /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		6461C47D262502C30027B18C /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		6461C48326253F6B0027B18C /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		6461C4A02625CEC90027B18C /* FavoriteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteManager.swift; sourceTree = "<group>"; };
 		64C4C14C26210754009F0BE6 /* The Meal Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Meal Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C4C14F26210754009F0BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64C4C15126210754009F0BE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		64C4C15326210754009F0BE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64C4C15326210754009F0BE6 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
 		64C4C15626210754009F0BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64C4C15826210755009F0BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64C4C15B26210755009F0BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64C4C15D26210755009F0BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C4C16B26210963009F0BE6 /* AreaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCollectionViewCell.swift; sourceTree = "<group>"; };
+		64C4C16C26210963009F0BE6 /* AreaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaCollectionViewCell.xib; sourceTree = "<group>"; };
+		64C4C17026210EF6009F0BE6 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		64C4C17126210EF6009F0BE6 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		64C4C17526211378009F0BE6 /* AreaItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		64C4C17626211378009F0BE6 /* AreaItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		64C4C17E26229D72009F0BE6 /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		64C4C18726232EB7009F0BE6 /* ProductDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailModel.swift; sourceTree = "<group>"; };
+		64C4C18D26233147009F0BE6 /* RegionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
+		AE7C3DF4CA812D1C367A5B2C /* Pods-The Meal Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Meal Challenge.debug.xcconfig"; path = "Target Support Files/Pods-The Meal Challenge/Pods-The Meal Challenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,86 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668495BDB85A9B94FB04C5B0 /* Pods_The_Meal_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6461C4972625A3F20027B18C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6461C49A2625A4150027B18C /* Home */,
+				6461C4992625A4110027B18C /* Product List */,
+				6461C4982625A40C0027B18C /* Product Detail */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6461C4982625A40C0027B18C /* Product Detail */ = {
+			isa = PBXGroup;
+			children = (
+				64C4C18726232EB7009F0BE6 /* ProductDetailModel.swift */,
+			);
+			path = "Product Detail";
+			sourceTree = "<group>";
+		};
+		6461C4992625A4110027B18C /* Product List */ = {
+			isa = PBXGroup;
+			children = (
+				6461C47D262502C30027B18C /* ProductModel.swift */,
+			);
+			path = "Product List";
+			sourceTree = "<group>";
+		};
+		6461C49A2625A4150027B18C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				64C4C18D26233147009F0BE6 /* RegionModel.swift */,
+				64C4C17E26229D72009F0BE6 /* CategoriesModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6461C49B2625A4780027B18C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6461C49E2625A4960027B18C /* Home Cells */,
+				6461C49D2625A4920027B18C /* Product List Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6461C49D2625A4920027B18C /* Product List Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6461C4752624F7900027B18C /* ProductCollectionViewCell.swift */,
+				6461C4762624F7900027B18C /* ProductCollectionViewCell.xib */,
+			);
+			path = "Product List Cells";
+			sourceTree = "<group>";
+		};
+		6461C49E2625A4960027B18C /* Home Cells */ = {
+			isa = PBXGroup;
+			children = (
+				64C4C16B26210963009F0BE6 /* AreaCollectionViewCell.swift */,
+				64C4C16C26210963009F0BE6 /* AreaCollectionViewCell.xib */,
+				64C4C17026210EF6009F0BE6 /* CategoryCollectionViewCell.swift */,
+				64C4C17126210EF6009F0BE6 /* CategoryCollectionViewCell.xib */,
+				64C4C17526211378009F0BE6 /* AreaItemCollectionViewCell.swift */,
+				64C4C17626211378009F0BE6 /* AreaItemCollectionViewCell.xib */,
+			);
+			path = "Home Cells";
+			sourceTree = "<group>";
+		};
 		64C4C14326210754009F0BE6 = {
 			isa = PBXGroup;
 			children = (
 				64C4C14E26210754009F0BE6 /* The Meal Challenge */,
 				64C4C14D26210754009F0BE6 /* Products */,
+				E9263A75673F4EBDB8FB8EE4 /* Pods */,
+				EB1934F96233D544E73E3A69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +159,45 @@
 		64C4C14E26210754009F0BE6 /* The Meal Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				6461C4972625A3F20027B18C /* Models */,
+				6461C49B2625A4780027B18C /* Views */,
+				64C4C16626210869009F0BE6 /* Controllers */,
 				64C4C14F26210754009F0BE6 /* AppDelegate.swift */,
 				64C4C15126210754009F0BE6 /* SceneDelegate.swift */,
-				64C4C15326210754009F0BE6 /* ViewController.swift */,
 				64C4C15526210754009F0BE6 /* Main.storyboard */,
 				64C4C15826210755009F0BE6 /* Assets.xcassets */,
 				64C4C15A26210755009F0BE6 /* LaunchScreen.storyboard */,
 				64C4C15D26210755009F0BE6 /* Info.plist */,
+				6461C4A02625CEC90027B18C /* FavoriteManager.swift */,
 			);
 			path = "The Meal Challenge";
+			sourceTree = "<group>";
+		};
+		64C4C16626210869009F0BE6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				64C4C15326210754009F0BE6 /* HomePageVC.swift */,
+				6461C4702624F47C0027B18C /* ProductListVC.swift */,
+				6461C48326253F6B0027B18C /* ProductDetailVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E9263A75673F4EBDB8FB8EE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE7C3DF4CA812D1C367A5B2C /* Pods-The Meal Challenge.debug.xcconfig */,
+				4186BF0AA80FA5444B8D8823 /* Pods-The Meal Challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB1934F96233D544E73E3A69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE25ED263041E0D5BA45618 /* Pods_The_Meal_Challenge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64C4C16026210755009F0BE6 /* Build configuration list for PBXNativeTarget "The Meal Challenge" */;
 			buildPhases = (
+				CB3438401BE375600E31204D /* [CP] Check Pods Manifest.lock */,
 				64C4C14826210754009F0BE6 /* Sources */,
 				64C4C14926210754009F0BE6 /* Frameworks */,
 				64C4C14A26210754009F0BE6 /* Resources */,
+				1F19DD473E0F396A5F223096 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +260,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C4C15C26210755009F0BE6 /* LaunchScreen.storyboard in Resources */,
+				64C4C17326210EF6009F0BE6 /* CategoryCollectionViewCell.xib in Resources */,
+				64C4C17826211378009F0BE6 /* AreaItemCollectionViewCell.xib in Resources */,
+				6461C4782624F7900027B18C /* ProductCollectionViewCell.xib in Resources */,
 				64C4C15926210755009F0BE6 /* Assets.xcassets in Resources */,
 				64C4C15726210754009F0BE6 /* Main.storyboard in Resources */,
+				64C4C16E26210963009F0BE6 /* AreaCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F19DD473E0F396A5F223096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Meal Challenge/Pods-The Meal Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Meal Challenge/Pods-The Meal Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Meal Challenge/Pods-The Meal Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB3438401BE375600E31204D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Meal Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64C4C14826210754009F0BE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C4C15426210754009F0BE6 /* ViewController.swift in Sources */,
+				64C4C15426210754009F0BE6 /* HomePageVC.swift in Sources */,
+				64C4C17F26229D72009F0BE6 /* CategoriesModel.swift in Sources */,
+				64C4C17226210EF6009F0BE6 /* CategoryCollectionViewCell.swift in Sources */,
+				64C4C18826232EB7009F0BE6 /* ProductDetailModel.swift in Sources */,
+				64C4C17726211378009F0BE6 /* AreaItemCollectionViewCell.swift in Sources */,
+				6461C4772624F7900027B18C /* ProductCollectionViewCell.swift in Sources */,
 				64C4C15026210754009F0BE6 /* AppDelegate.swift in Sources */,
+				6461C47E262502C30027B18C /* ProductModel.swift in Sources */,
+				6461C4712624F47C0027B18C /* ProductListVC.swift in Sources */,
 				64C4C15226210754009F0BE6 /* SceneDelegate.swift in Sources */,
+				64C4C18E26233147009F0BE6 /* RegionModel.swift in Sources */,
+				6461C48426253F6B0027B18C /* ProductDetailVC.swift in Sources */,
+				64C4C16D26210963009F0BE6 /* AreaCollectionViewCell.swift in Sources */,
+				6461C4A12625CEC90027B18C /* FavoriteManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +475,13 @@
 		};
 		64C4C16126210755009F0BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7C3DF4CA812D1C367A5B2C /* Pods-The Meal Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "The Meal Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +495,13 @@
 		};
 		64C4C16226210755009F0BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4186BF0AA80FA5444B8D8823 /* Pods-The Meal Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "The Meal Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
